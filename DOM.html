@@ -1,0 +1,144 @@
+ <!DOCTYPE html >
+<html lang="es" data-dark>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios del DOM</title>
+<link rel="stylesheet" href="DOM.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css"> -->
+</head>
+<body data-dark>
+<header class="header">
+    <h1>Ejercicios del DOM</h1>
+</header>
+<button class="panel-btn hamburger hamburger--vortex" type="button" >
+    <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+    </span>
+</button>
+<button class="scroll hidden" >&#11014;</button>
+<button class="ModeToggler light" >D</button>
+<aside class="panel">
+    <nav class="menu">
+            <a href="#Seccion1"data-scrollSpy >#1 Reloj Digital y Alarma Sonora</a>
+            <a href="#Seccion2"data-scrollSpy >#2 Eventos del Teclado</a>
+            <a href="#Seccion3"data-scrollSpy >#3 CountDown</a>
+            <a href="#Seccion4"data-scrollSpy >#4 Responsive Javascript</a>
+            <a href="#Seccion5"data-scrollSpy >#5 Responsive Tester</a>
+            <a href="#Seccion6"data-scrollSpy >#6 Detección de Dispositivos(User Agent)</a>
+            <a href="#Seccion7"data-scrollSpy >#7 Detección de la conexión</a>
+            <a href="#Seccion8"data-scrollSpy >#8 </a>
+            <a href="#Seccion9"data-scrollSpy >#9 Geolocalización</a>
+            <a href="#Seccion10"data-scrollSpy >#10 </a>
+            <a href="#Seccion11"data-scrollSpy >#11 Sorteo Digital</a>
+            <a href="#Seccion12"data-scrollSpy >#12</a>
+            <a href="#Seccion13"data-scrollSpy >#13</a>
+            <a href="#Seccion14"data-scrollSpy >#14</a>
+            <a href="#Seccion15"data-scrollSpy >#15</a>
+    </nav> 
+</aside>
+<main>
+   <section id="Seccion1" class="section" data-scroll>
+    <h2>Reloj Digital y Alarma Sonora</h2>
+    <div>
+        <h3 id="Reloj_y_Alarma"></h3>
+    </div>
+        <button id="Activar-R">Iniciar reloj</button>
+        <button id="Desactivar-R">Detener reloj</button>
+        <button id="Activar-A">Iniciar alarma</button>
+        <button id="Desactivar-A">Detener alarma</button>
+    
+   </section>
+   <section id="Seccion2" class="section" data-scroll>
+    <h2>Eventos del Teclado</h2>
+    <article class="stage">
+        <div class="ball"></div>
+    </article>
+   </section>
+   <section id="Seccion3" class="section" data-scroll>
+    <h2 >CountDown</h2>
+    <h3 id="CountDown"></h3>
+   </section>
+   <section id="Seccion4" class="section" data-scroll>
+    <h2>Responsive Javascript</h2>
+    <div id="youtube"></div>
+    <div id="pic"></div>
+   </section>
+   <section id="Seccion5" class="section" data-scroll>
+    <h2>Responsive Tester</h2>
+    <form id="responsiveTester">
+        <input type="url" name="direccion" placeholder="URL" required>
+        <br>
+        <input type="text" name="ancho" placeholder="Ancho" required>
+        <br>
+        <input type="text" name="alto" placeholder="Alto" required>
+        <br>
+        <input type="submit" name="probar" value="Probar">
+        <input type="button" name="cerrar" value="Cerrar">
+    </form>
+   </section>
+   <section id="Seccion6" class="section" data-scroll>Detección de Dispositivos<br>(User Agent)
+    <div id="UserDevice"></div>
+   </section>
+
+   <section id="Seccion7" class="section" data-scroll>
+    <h2>Detección de la conexión</h2>
+   </section>
+
+   <section id="Seccion8" class="section" data-scroll>
+
+   </section>
+
+   <section id="Seccion9" class="section" data-scroll>
+    <h2>Geolocalización</h2>
+   </section>
+
+   <section id="Seccion10" class="section" data-scroll>
+    <h2>Filtros de búsqueda</h2>
+    <input type="search" placeholder="Buscar" class="card-filter">
+   </section>
+  
+
+
+   <section id="Seccion11" class="section" data-scroll>
+    <h2>Sorteo Digital</h2>
+    <div id="ganador"></div>
+    <ul class="players">
+        <li class="player">Javascript</li>
+        <li class="player">PHP</li>
+        <li class="player">Java</li>
+        <li class="player">C</li>
+        <li class="player">Python</li>
+        <li class="player">Ruby</li>
+        <li class="player">Go</li>
+        <li class="player">Visual basics</li>
+        <li class="player">Rust</li>
+        <li class="player">Perl</li>
+    </ul>
+    <button id="winner">Obtener ganador</button>
+   </section>
+
+
+   <section id="Seccion12" class="section" data-scroll>
+
+   </section>
+  
+
+   <section id="Seccion13" class="section" data-scroll>
+
+   </section>
+
+
+   <section id="Seccion14" class="section" data-scroll>
+
+   </section>
+   
+
+   <section id="Seccion15" class="section" data-scroll>
+
+   </section>
+</main>
+
+    <script src="indexDOM.js"></script>
+</body>
+</html>
